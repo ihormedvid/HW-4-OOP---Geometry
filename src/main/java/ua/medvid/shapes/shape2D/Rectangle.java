@@ -8,7 +8,7 @@ import java.util.List;
 import static java.util.List.of;
 
 public class Rectangle extends PlaneShape {
-    Vertex2D vertex;
+    private Vertex2D vertex;
     private double width;
     private double height;
 

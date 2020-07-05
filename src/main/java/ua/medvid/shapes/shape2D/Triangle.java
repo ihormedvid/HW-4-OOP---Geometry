@@ -6,9 +6,9 @@ import ua.medvid.vertex.Vertex2D;
 import java.util.List;
 
 public class Triangle extends PlaneShape {
-    Vertex2D a;
-    Vertex2D b;
-    Vertex2D c;
+    private Vertex2D a;
+    private Vertex2D b;
+    private Vertex2D c;
 
     private double ab;
     private double bc;

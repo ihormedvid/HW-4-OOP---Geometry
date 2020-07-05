@@ -9,7 +9,6 @@ import ua.medvid.vertex.Vertex3D;
 import java.util.List;
 
 public abstract class SpaceShape extends Shape implements AreaMeasurable, VolumeMeasurable {
-    List<Vertex3D> listOfVertices;
 
     public abstract double getVolume();
 }

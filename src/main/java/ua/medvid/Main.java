@@ -10,7 +10,6 @@ import ua.medvid.shapes.shape3D.Sphere;
 import ua.medvid.shapes.shape3D.SquarePyramid;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,7 +19,7 @@ public class Main {
 
         Cuboid cuboid = new Cuboid(1,4,65,12,99,12);
         Sphere sphere = new Sphere(12,33,99,9);
-        SquarePyramid squarePyramid = new SquarePyramid(13,4,99,12,12);
+        SquarePyramid squarePyramid = new SquarePyramid(3,6);
 
         ArrayList<Shape> shapes = new ArrayList<>();
         shapes.add(triangle);

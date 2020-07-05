@@ -1,5 +1,5 @@
 package ua.medvid.interfaces;
 
 public interface AreaMeasurable {
-    double getArea();
+    public double getArea();
 }

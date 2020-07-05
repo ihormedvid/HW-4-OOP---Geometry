@@ -3,11 +3,9 @@ package ua.medvid.shapes.shape2D;
 import ua.medvid.vertex.Vertex2D;
 
 public class Circle extends PlaneShape {
-   private Vertex2D vertex;
    private double radius;
 
-    public Circle(int aX, int aY, double radius) {
-        this.vertex = new Vertex2D(aX, aY);
+    public Circle(int radius1, int i, double radius) {
         this.radius = radius;
     }
 
@@ -23,7 +21,7 @@ public class Circle extends PlaneShape {
 
     @Override
     public String toString() {
-        return  "Cirlce, Perimeter =" + String.format("%.2f",getPerimeter()) +
+        return  "Circle, Perimeter =" + String.format("%.2f",getPerimeter()) +
                 "Area = " + String.format("%.2f",getArea());
 
     }
